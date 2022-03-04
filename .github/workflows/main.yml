@@ -10,7 +10,7 @@ name: CI-CD-Pipeline-to-AWS-ElasticBeastalk
 env:
   EB_PACKAGE_S3_BUCKET_NAME : "nam-wolf-application-packages"
   EB_APPLICATION_NAME       : "Flask"
-  EB_ENVIRONMENT_NAME       : "Flask-env-1"
+  EB_ENVIRONMENT_NAME       : "Flask-env"
   DEPLOY_PACKAGE_NAME       : "flask_app_${{ github.sha }}.zip"
   AWS_REGION_NAME           : "us-east-1"
 
